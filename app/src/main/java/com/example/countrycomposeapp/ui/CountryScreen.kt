@@ -20,7 +20,9 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import com.example.countrycomposeapp.utils.ConnectionState
 import com.example.countrycomposeapp.utils.connectivityState
 import com.example.countrycomposeapp.viewmodel.CountryViewModel
+import kotlinx.coroutines.ExperimentalCoroutinesApi
 
+@OptIn(ExperimentalCoroutinesApi::class)
 @Composable
 fun CountryScreen(onCountryClick: (String) -> Unit) {
     val context = LocalContext.current

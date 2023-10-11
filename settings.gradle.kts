@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "CountryCapitalMappingApp"
+rootProject.name = "CountryComposeApp"
 include(":app")
